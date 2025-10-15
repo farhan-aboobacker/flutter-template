@@ -13,11 +13,7 @@
 
     # Create a new Flutter project in the output directory ($out)
     flutter create "$out" --org=${bundleid} --description=${appdesc} --platforms="web,android"
-    chmod -R u+w "$out"
+  
    
-    # Copy development environment configuration file into the '.idx' folder
-    cp ${./dev.nix} "$out/.idx/dev.nix"
-    # Ensure all files in the project directory are writable by the user
-    chmod -R u+w "$out"
   '';
 }
