@@ -14,13 +14,7 @@
             "id": "bundleid",
             "name": "Reverse domain identifier for your app package (e.g. com.example)",
             "type": "text",
-            "required": false
-        },
-        {
-            "id": "appdesc",
-            "name": "App Description",
-            "type": "text",
-            "required": false
+            "required": true
         }
     ]
 }
