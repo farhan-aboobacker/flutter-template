@@ -6,7 +6,7 @@
       "id": "appbundle",
       "name": "App Bundle Identifer",
       "type": "text",
-      "default": "com.example"
+      "default": "com.example",
       "required": true
     }
   ]
