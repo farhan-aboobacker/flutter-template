@@ -12,7 +12,7 @@
     echo "🔧 Initializing Flutter Firebase Template..."
  
     # Create a new Flutter project in the output directory ($out)
-    flutter create "$out" --org=${bundle} --description=${appdesc} --platforms="web,andriod"
+    flutter create "$out" --org=${bundleid} --description=${appdesc} --platforms="web,andriod"
  
     # Create a hidden folder '.idx' inside the project for custom indexing or metadata
     mkdir "$out/.idx"
