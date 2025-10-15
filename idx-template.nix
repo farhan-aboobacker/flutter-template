@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ pkgs, bundle ? "com.example", desc ? "A new Flutter project." ... }: {
   # List of packages to be available in the environment
   packages = [
     pkgs.git      # Git version control system
@@ -12,7 +12,7 @@
     echo "🔧 Initializing Flutter Firebase Template..."
  
     # Create a new Flutter project in the output directory ($out)
-    flutter create "$out"
+    flutter create "$out" --org="$bundle" --description="$desc" --platforms="web,andriod"
  
     # Create a hidden folder '.idx' inside the project for custom indexing or metadata
     mkdir "$out/.idx"
