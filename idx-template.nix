@@ -12,7 +12,7 @@
     echo "🔧 Initializing Flutter Firebase Template..."
 
     # Create a new Flutter project in the output directory ($out)
-    flutter create "$out" --org=${bundleid} --description=${appdesc} --platforms="web,android"
+    flutter create "$out" --org=${bundleid} --platforms="web,android" ${if appdesc == "" then "" else "--description=${appdesc}" }
 
     mkdir -p "$out/.idx"
     cp ${./dev.nix} "$out"/.idx/dev.nix
