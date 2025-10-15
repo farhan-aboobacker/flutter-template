@@ -1,4 +1,4 @@
-{ pkgs, bundle ? "com.example", desc ? "A new Flutter project." ... }: {
+{ pkgs, bundle ? "com.example", desc ? "A new Flutter project.", ... }: {
   # List of packages to be available in the environment
   packages = [
     pkgs.git      # Git version control system
