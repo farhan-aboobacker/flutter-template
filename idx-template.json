@@ -1,27 +1,28 @@
 {
-  "name": "Flutter",
-  "description": "Create a flutter application",
-  "categories": [
-    "Mobile"
-  ],
-  "icon": "https://www.gstatic.com/images/branding/productlogos/flutter/v6/192px.svg",
-  "publisher": "Google LLC",
-  "host": {
-    "virtualization": true
-  },
-  "params": [
-    {
-      "id": "bundle",
-      "name": "Identifer",
-      "type": "text",
-      "default": "com.example",
-      "required": true
-    }, {
-      "id": "desc",
-      "name": "Description",
-      "type": "text",
-      "default": "A new Flutter project.",
-      "required": true
-    }
-  ]
+    "name": "Flutter",
+    "description": "Create a flutter application",
+    "categories": [
+        "Mobile"
+    ],
+    "icon": "https://www.gstatic.com/images/branding/productlogos/flutter/v6/192px.svg",
+    "publisher": "Google LLC",
+    "host": {
+        "virtualization": true
+    },
+    "params": [
+        {
+            "id": "bundle",
+            "name": "Identifer",
+            "type": "text",
+            "default": "com.example",
+            "required": true
+        },
+        {
+            "id": "desc",
+            "name": "Description",
+            "type": "text",
+            "default": "A new Flutter project.",
+            "required": true
+        }
+    ]
 }
