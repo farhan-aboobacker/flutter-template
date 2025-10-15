@@ -12,7 +12,7 @@
     "params": [
         {
             "id": "bundleid",
-            "name": "Identifer",
+            "name": "App bundle identifier",
             "type": "text",
             "required": false
         },
