@@ -11,14 +11,14 @@
     },
     "params": [
         {
-            "id": "bundle",
+            "id": "bundleid",
             "name": "Identifer",
             "type": "text",
             "default": "com.example",
             "required": true
         },
         {
-            "id": "desc",
+            "id": "appdesc",
             "name": "App Description",
             "type": "text",
             "default": "A new Flutter project.",
