@@ -13,7 +13,10 @@
 
     # Create a new Flutter project in the output directory ($out)
     flutter create "$out" --org=${bundleid} --description=${appdesc} --platforms="web,android"
-  
-   
+
+    mkdir -p "$out/.idx"
+    cp ${./dev.nix} "$out"/.idx/dev.nix
+
+    chmod -R u+w "$out"
   '';
 }
