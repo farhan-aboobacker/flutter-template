@@ -1,16 +1,12 @@
 {
-  "name": "Hello world",
-  "description": "A hello world app",
+  "name": "Flutter",
+  "description": "Create a flutter started project",
   "params": [
     {
-      "id": "language",
-      "name": "Programming Language",
-      "type": "enum",
-      "default": "ts",
-      "options": {
-        "js": "JavaScript",
-        "ts": "TypeScript"
-      },
+      "id": "appbundle",
+      "name": "App Bundle Identifer",
+      "type": "text",
+     
       "required": true
     }
   ]
