@@ -15,13 +15,13 @@
       "name": "Identifer",
       "type": "text",
       "default": "com.example",
-      "required": false
+      "required": true
     }, {
       "id": "desc",
       "name": "Description",
       "type": "text",
       "default": "A new Flutter project.",
-      "required": false
+      "required": true
     }
   ]
 }
