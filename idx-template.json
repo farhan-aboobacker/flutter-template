@@ -14,13 +14,13 @@
             "id": "bundleid",
             "name": "Identifer",
             "type": "text",
-            "required": true
+            "required": false
         },
         {
             "id": "appdesc",
             "name": "App Description",
             "type": "text",
-            "required": true
+            "required": false
         }
     ]
 }
