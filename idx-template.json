@@ -12,7 +12,7 @@
     "params": [
         {
             "id": "bundleid",
-            "name": "App bundle identifier",
+            "name": "Reverse domain identifier for your app package (e.g. com.example)",
             "type": "text",
             "required": false
         },
