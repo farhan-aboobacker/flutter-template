@@ -19,7 +19,7 @@
         },
         {
             "id": "desc",
-            "name": "Description",
+            "name": "App Description",
             "type": "text",
             "default": "A new Flutter project.",
             "required": true
