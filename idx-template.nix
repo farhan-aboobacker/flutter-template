@@ -1,4 +1,4 @@
-{ pkgs, bundleid ? "com.example", appdesc ? "A new Flutter project.", ... }: {
+{ pkgs, bundleid ? "com.example", ... }: {
   # List of packages to be available in the environment
   packages = [
     pkgs.git      # Git version control system
@@ -12,8 +12,7 @@
     echo "🔧 Initializing Flutter Firebase Template..."
 
     # Create a new Flutter project in the output directory ($out)
-    flutter create "$out" --org=${bundleid} --platforms="web,android" ${if appdesc == "" then "" else "--description=${appdesc}" }
-
+    flutter create "$out" --org=${bundleid} --platforms="web,android"
     mkdir -p "$out/.idx"
     cp ${./dev.nix} "$out"/.idx/dev.nix
 
