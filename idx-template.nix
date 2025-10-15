@@ -10,9 +10,6 @@
   bootstrap = ''
     # Inform the user that the Flutter Firebase template setup is starting
     echo "🔧 Initializing Flutter Firebase Template..."
-    mkdir "$out"
-    # Create a hidden folder '.idx' inside the project for custom indexing or metadata
-    mkdir "$out/.idx"
 
     # Create a new Flutter project in the output directory ($out)
     flutter create "$out" --org=${bundleid} --description=${appdesc} --platforms="web,android"
